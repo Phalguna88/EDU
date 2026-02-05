@@ -1,0 +1,18 @@
+1. Project Workspace Setup
+
+Create a directory named documents inside your home directory. This directory will store your project-related files.
+
+
+command: 
+cd ~
+mkdir documents
+
+output: creates a directory, named documents, in my home directory
+
+explanation:
+cd ~ command takes me to my home directory, regardless of which directory I am currently in
+(or cd command with no options also does the same) 
+
+
+mkdir documents 
+command creates a directory called documents (in the directory I am currently in; currently I am in my home directory)

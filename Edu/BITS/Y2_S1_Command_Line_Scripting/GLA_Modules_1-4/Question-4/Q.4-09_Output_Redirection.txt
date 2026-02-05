@@ -1,0 +1,3 @@
+9. Output Redirection
+
+Redirect the output of a system information command of your choice into a file named system_report.txt.

@@ -1,0 +1,18 @@
+10. Path Verification
+
+Display the absolute path of the plan_copy.txt file after it has been moved to the archive directory.
+
+my project_documents directory is named "graded_lab_assignment"
+the file plan_copy.txt is in the sub directory named "archive"
+
+therefore, the absolute path should show this hierarchy structure 
+
+command:
+cd ~
+find . -name "plan_copy.txt"
+
+output:
+./graded_lab_assignment/archive/plan_copy.txt
+
+explanation:
+I used the find command to search for a given file, the command searches for the file recursively through all the sub directories and once it finds the file, it prints the absolute path of the file

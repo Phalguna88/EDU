@@ -1,0 +1,17 @@
+5. File Duplication
+
+Create a copy of plan.txt and name it plan_copy.txt.
+
+command:
+cp plan.txt plan_copy.txt
+
+explanation:
+cp file_name new_file_name 
+copies a given file <file_name> as a new file with a new name <new_file_name>
+
+other options:
+cp file.txt /path/new_directory/file_copy.txt
+copies the same file to a new directory with a different path
+
+cp *.txt backup/
+copies all txt files to a directory named backup.

@@ -1,0 +1,23 @@
+7. Disk Usage Check
+
+Display the disk usage of your home directory in a human-readable format.
+
+In Linux,
+the du command stands for disk usage. 
+It estimates and reports the space allocated to files and directories, recursively scanning subdirectories.
+
+command:
+du -h to see the output in a human readable format
+
+du -h $HOME
+
+du -sh $HOME gives the total size of the home directory without listing the size of each individual object
+
+du -ks $HOME to see the output in kilobytes [in this case, my home directory size is 38 Megabytes == equivalent to 38,860 kilobytes
+ 
+output: 
+du -sh $HOME
+38M /home/coder
+
+du -ks $HOME
+38860 /home/coder

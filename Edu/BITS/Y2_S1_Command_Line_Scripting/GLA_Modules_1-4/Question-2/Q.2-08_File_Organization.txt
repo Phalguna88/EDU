@@ -1,0 +1,21 @@
+8. File Organization
+
+Move plan_copy.txt into the archive subdirectory.
+
+my project_documents directory is named "graded_lab_assignment"
+
+my present working directory is "graded_lab_assignment".
+there is new sub directory named "archive" in this directory
+
+command:
+mv plan_copy.txt archive/
+
+explanation
+I use the mv command to move a given file to a named_directory, retaining the original file name.
+
+basic syntax:
+mv file.txt /path/to/directory/
+
+output:
+the file plan_copy.txt in the directory graded_lab_assignment
+is moved to the archive directory, retaining the original file name and contents of the file.

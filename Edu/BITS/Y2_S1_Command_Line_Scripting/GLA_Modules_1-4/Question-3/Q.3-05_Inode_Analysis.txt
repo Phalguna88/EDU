@@ -1,0 +1,12 @@
+5. Inode Analysis
+
+Identify which files share the same inode number and briefly explain the reason.
+
+
+ls -li sample_data.txt sample_hard.txt sample_soft.txt
+
+output & explanation:
+For output, see the corresponding screenshot
+As expected the two files sample_data.txt and sample_hard.txt show the same inode number - 232577 - conforming that both these filenames are referencing one single entity.
+
+Where as, the soft link file, shows a different inode number - 232454 - but the long format of ls command shows that file sample_soft.txt is a symbolic link to the source file sample_data.txt

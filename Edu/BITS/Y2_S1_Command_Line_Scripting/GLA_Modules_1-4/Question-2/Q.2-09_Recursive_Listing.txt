@@ -1,0 +1,17 @@
+9. Recursive Listing
+
+List all files and subdirectories inside project_documents recursively so that the complete directory structure is visible.
+
+my project_documents directory is named "graded_lab_assignment"
+
+commands:
+cd ~
+ls -lR graded-lab_assignment
+
+explanation:
+- I navigate to my home directory
+- I use the command ls -lR, the long listing of ls command and the additional flag -R to recursively print all the subfiles and subdirectories of my named directory (in this case, my projects subdirectory named graded_lab_assignment)
+
+
+output:
+the output shows first the files and directories in my named directory (graded_lab_assignment) and then shows the files under each of the sub directories (in this case archive sub directory)

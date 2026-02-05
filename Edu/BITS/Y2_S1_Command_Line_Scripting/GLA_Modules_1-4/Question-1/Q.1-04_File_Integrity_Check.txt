@@ -1,0 +1,26 @@
+4. File Integrity Check
+
+Display the number of characters present in user_info.txt.
+
+command:
+wc command lists the number of characters present in a given file
+in this case: wc user_info.txt
+
+output:
+the order of the output is: Lines, words, bytes
+
+In this case: 
+wc user_info.txt
+1 4 34 user_info.txt
+
+explanation:
+1  line in this file
+4  words in this file
+34 bytes in this file
+
+if we want only specific information, such as number of words only, supplying the relevant flags will output the desired information
+
+wc -l = number of lines
+wc -w = number of words
+wc -c = number of bytes 
+wc -m = number of characters

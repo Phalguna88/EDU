@@ -1,0 +1,3 @@
+10. System Health Awareness
+
+Display the command used to check system uptime and briefly explain its output (uptime duration, number of users, load average).

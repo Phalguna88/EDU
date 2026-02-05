@@ -1,0 +1,3 @@
+5. Process Priority Management
+
+Change the priority (niceness) of one of your running processes and display the updated priority.

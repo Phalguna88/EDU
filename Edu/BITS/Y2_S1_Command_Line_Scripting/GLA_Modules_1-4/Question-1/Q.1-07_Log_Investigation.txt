@@ -1,0 +1,3 @@
+7. Log Investigation
+
+Search for the word &quot;admin&quot; inside a file named log.txt and display only the matching lines.

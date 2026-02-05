@@ -1,0 +1,38 @@
+10. Disk Utility Demonstration
+
+Demonstrate the usage of du and df commands using various useful options and briefly explain the output.
+
+explanation:
+the du command focuses primarily on DISK USAGE of files/directories - output in number of disk blocks, with a typical disk unit being 4096 bytes or 4 kilobytes
+
+the df command focuses primaruly on DISK USAGE of filesystems
+
+
+du Examples
+du -h /home: Shows subdirectory sizes in Kilobytes or Megabytres, summing allocated blocks recursively.
+​
+
+du -sh /home: Displays total size only (e.g., 17 megabytes in my case), 
+    the option -s summarizes and ignores sub directories
+​
+du -h --max-depth=1 /home : Limits to one level (e.g., 9M for my homedir and 7.8M for developer user home in my case), useful for top-level overview.
+
+du -h --max-depth=1 $HOME [ for my own directory, this command would list the top diles or directories occupying the most size (size sorted in descending order)
+​
+
+
+df Examples
+df -h: Lists filesystems with columns for 
+name of the filesystem,
+size, 
+used, 
+available, 
+usage%, and 
+mountpoint (e.g., / in my case ), reporting free space accurately.
+
+​
+
+df -hT /: Adds T - type column with specific mount points (e.g., zfs in my case )
+​
+
+df -i: Shows inode usage - Inodes count, Inodes Used, Inodes Free,  IUse% for inode fullness for file-count issues.

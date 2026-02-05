@@ -1,0 +1,3 @@
+9. Network Connectivity Test
+
+Verify network connectivity by sending ICMP packets to www.google.com.

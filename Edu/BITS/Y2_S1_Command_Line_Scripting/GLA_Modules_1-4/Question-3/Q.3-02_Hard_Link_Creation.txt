@@ -1,0 +1,21 @@
+2. Hard Link Creation
+
+Create a hard link to sample_data.txt named sample_hard.txt.
+
+command:
+ln sample_data.txt sample_hard.txt
+
+explanation:
+In Linux, the coomand ln stands for Link. It creates either a hard link (default) or a symbolic link, also called soft link, if we use the option ln -s command. This facilitates multiple names to reference the same file.
+
+in this case,
+command: ln sample_data.txt sample_hard.txt
+this creates a hard link sample_hard.txt that points to the same inode as the original file sample_data.txt
+
+
+How do I check if it is the same file though the files are named differently?
+I use the command ls -i option to show the inode numbers of both the files. If they both reference the same file, both files should show the same inode numbers
+
+command: ls -li ./sample_data.txt ./sample_hard.txt
+
+the output, ass seen in the corresponding screenshot, shows the same inode number for both files. In addition, the ls -l output shows the number of hard links, in this case the digit 2, for both files, as there are two filenames referencing the same entity.

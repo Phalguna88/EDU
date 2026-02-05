@@ -1,0 +1,16 @@
+2. Workspace Validation
+
+Display the current working directory and list all files and directories in that location using long format listing.
+
+
+(cd; pwd) && ls -l
+
+Single command breakdown
+No single command does both exactly, but this chained command displays current directory first, then long-format listing:
+
+(cd; pwd): Prints working directory (pwd alone doesn't chain well).
+
+&& ls -l: Then lists files/directories in long format (permissions, owner, size, date).
+
+cd with no arguments defaults to $HOME (e.g., /home/username). Equivalent to cd ~ or cd $HOME.
+

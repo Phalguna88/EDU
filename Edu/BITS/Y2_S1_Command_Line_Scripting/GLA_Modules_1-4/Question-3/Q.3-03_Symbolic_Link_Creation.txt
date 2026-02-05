@@ -1,0 +1,18 @@
+3. Symbolic Link Creation
+
+Create a symbolic (soft) link to sample_data.txt named sample_soft.txt.
+
+command: ln -s <source_filename> <target_filename> creates a symbolic link of the <source_filename> to a new filename <target_filename>
+
+in this case:
+command: ln -s sample_data.txt sample_soft.txt
+
+explanation: ln -s (the s option) creates a symbolic link <sample_soft.txt> to the original source file <sample_data.txt>
+
+how to check if the given filename is a link (hard / soft) or the original filename?
+
+command: use the long listing format of ls command to see if a given filename is a symbolic link
+
+ls -l sample_soft.txt shows that this filename is a symbolic link to sample_data.txt; the first letter l shows this is a symbolic link 
+
+[ the hard link sample_hard.txt does not show the first letter l for this file, indicating that this is not a symbolic link  ]

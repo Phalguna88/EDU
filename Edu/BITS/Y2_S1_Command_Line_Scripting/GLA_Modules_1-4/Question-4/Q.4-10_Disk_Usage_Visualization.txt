@@ -1,0 +1,3 @@
+10. Disk Usage Visualization
+
+Demonstrate the usage of the ncdu tool using appropriate options and briefly explain what it shows.

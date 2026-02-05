@@ -1,0 +1,9 @@
+Question 4 [5 points]
+
+You must perform all operations without making any configuration changes to the system.
+
+These tasks should be executed within your own user account. Since uptime, processes, memory usage,disk usage, and background jobs vary across systems and users, each student’s output will be unique.
+
+1. System Uptime Verification
+
+Display the time elapsed since the system was last booted.

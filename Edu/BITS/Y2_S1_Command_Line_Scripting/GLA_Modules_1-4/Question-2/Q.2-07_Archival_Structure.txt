@@ -1,0 +1,18 @@
+7. Archival Structure
+
+Inside the project_documents directory, create a subdirectory named archive.
+
+my project_documents directory is named "graded_lab_assignment"
+
+
+commands:
+cd ~
+cd graded_lab_assignment
+mkdir archive
+
+explanation:
+- I navigate to my home directory [cd ~ ]
+- then I move to my projects subdirectory named as "graded_lab_assignment"
+  [cd graded_lab_assignment]
+- I create a new sub directory named "archive"
+  [mkdir archive]

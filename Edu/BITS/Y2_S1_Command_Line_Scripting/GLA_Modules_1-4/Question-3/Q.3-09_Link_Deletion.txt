@@ -1,0 +1,7 @@
+9. Link Deletion Test
+
+Delete the symbolic link sample_soft.txt and verify that the original file sample_data.txt is unaffected.
+
+command: rm sample_soft.txt
+
+explanation: since  the symbolic link is a file, it can deleted with rm command, just like a regular file

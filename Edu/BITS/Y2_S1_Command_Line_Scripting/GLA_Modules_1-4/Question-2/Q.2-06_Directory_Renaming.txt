@@ -1,0 +1,11 @@
+6. Directory Renaming
+
+Rename the documents directory to project_documents to reflect the project scope more clearly.
+
+plan:
+- cd to my home directory as the directory "documents" exists in my home directory
+- rename documents directory as "graded_lab_assignment"
+
+commands:
+cd ~
+mv documents graded_lab_assignment

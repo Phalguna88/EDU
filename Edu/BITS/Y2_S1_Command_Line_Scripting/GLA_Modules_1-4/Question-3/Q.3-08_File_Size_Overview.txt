@@ -1,0 +1,29 @@
+8. File Size Overview
+
+Display the size of each file present in your home directory in a human-readable format.
+
+du -h --max-depth=1 ~ lists immediate subdirectories' usage plus total.
+​
+For top-level summary: du -sh --max-depth=0 ~.
+
+
+command:
+du -ah $HOME 
+
+explanation: this command displays the size of each file and subdirectory in my home directory. the a option is used to show individual files, the h option to see the output in a human readable format
+
+Since there are many directories and subdirectories in my home directory, I will use the option --max-depth=1 to limit the output to only the first level of files (& directories) in my homedir
+
+output: shows the size of each file and directory in my homedir
+the last line shows the size of my home directory, this case, 38 M (38 megabytes) of my home directory /home/coder  
+
+Additional command:
+If I want to see which are the largest files or directories occupying the most size, I can pipe the du command output to sort -r to get the output in descending order
+
+command:
+du -ah $HOME| sort -hr 
+
+this cmd output shows huge space occupied by .cache and .mozilla folders
+
+
+

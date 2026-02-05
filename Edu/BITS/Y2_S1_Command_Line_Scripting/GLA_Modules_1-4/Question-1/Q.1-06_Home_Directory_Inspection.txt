@@ -1,0 +1,3 @@
+6. Home Directory Inspection
+
+List the contents of your home directory sorted alphabetically.

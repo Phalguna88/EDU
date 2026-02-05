@@ -1,0 +1,14 @@
+2. File Creation
+
+Navigate into the documents directory and create a file named plan.txt.
+
+
+command
+cd documents
+touch plan.txt
+
+explanation:
+cd documents takes me to the documents directory &
+touch plan.txt command creates a new file (empty file).
+
+touch <filename> command creates a new empty file if it does not exist and if it does exist, it updates it's access and modification times to the current time without changing contents.

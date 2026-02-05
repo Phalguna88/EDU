@@ -1,0 +1,20 @@
+3. Content Addition
+
+Write some sample text of your choice into the plan.txt file. The content can be a short project note or reminder.
+
+command:
+option-1: if it is just a one line or two lines description, I need to add to my existing file, I can echo <my new content> and redirect the output to a file using ">>" so that it only appends to the existing content of my file. I need to be careful NOT to use only ">" redirect command as this will overwrite the existing content of my file.
+
+option-1 command:
+echo "This is a short description of my plan to complete this project. I will add four directories in my github repository, naming them Question-[1 to 4] and add the relevant files to these directories and then submit the URL of the public repository"
+
+
+
+option-2: open the file in an editor such as vi and add my content and save the file
+
+use a editor such as vi, enter insert mode, add my new content to the file, save with w command, and quit the file
+
+explanation: I can add new content to my file using either of these options. 
+echo "my content" and redirect the standard out to append to my file
+or
+use a editor to add new content

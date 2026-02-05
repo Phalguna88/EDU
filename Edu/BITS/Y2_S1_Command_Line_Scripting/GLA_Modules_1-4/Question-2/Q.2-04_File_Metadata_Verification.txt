@@ -1,0 +1,28 @@
+4. File Metadata Verification
+
+Display the permissions and ownership details of the plan.txt file. Ensure your username appears in the output.
+
+command:
+
+cd documents
+ls -l plan.txt
+
+
+output:
+-rw-r--r--	1	coder	coder	243	Jan 5 16:14	plan.txt
+
+Detailed explanation of the columns displayed:
+
+File type + permissions (e.g., -rw-r--r--)
+
+Number of hard links (e.g., 1)
+
+Owner username (e.g., coder)
+
+Group name (e.g., coder)
+
+File size in bytes (e.g., 243)
+
+Modification timestamp (month day time)
+
+Filename (e.g., plan.txt )

@@ -1,0 +1,20 @@
+6. File Metadata Inspection
+
+Display detailed file information (permissions, ownership, size, timestamps) of sample_data.txt.
+
+command: ls -l sample_data.txt
+
+explanation:
+the output shows one line per file with columns for 
+- type/permissions [ -rw-r--r--],
+  the very first - indicates that this is a regular file
+                 - would be d if it is a directory
+                 - would be l if it is a symbolic link
+- hard link count [2 as there is a hard link to the same filename], 
+- owner [coder], 
+- group [coder], 
+- size in bytes [225], 
+- modification timestamp, and 
+- name of the file
+​
+For directories, use ls -ld <directoryname> to view the directory's own details instead of its contents.

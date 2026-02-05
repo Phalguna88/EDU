@@ -1,0 +1,13 @@
+1. User Identity Verification
+Display your currently logged-in username and all groups your user account belongs to.
+Your name or login ID must appear in the output.
+
+command: id
+
+Alternatives
+id -Gn: Similar, lists group names (no username prefix).
+
+whoami && groups: Two commands for username then groups.
+
+groups displays the currently logged-in username followed by all groups the account belongs to (primary and supplementary). groups matches the query exactly in one command.
+

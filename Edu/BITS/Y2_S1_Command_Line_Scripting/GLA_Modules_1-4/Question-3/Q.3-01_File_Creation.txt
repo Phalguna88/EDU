@@ -1,0 +1,16 @@
+Question 3 [5 points]
+
+You have been asked to understand how Linux manages files using links and disk usage information.As part of your role, you will perform the following operations within your own user space.
+
+1. File Creation
+
+Create a file named sample_data.txt in your home directory and add some sample text to it.
+
+commands
+- touch sample_data.txt
+  this command creates a new file named sample_data.txt
+
+- vi sample_data.txt
+  add the content to this file
+
+
