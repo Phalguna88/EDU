@@ -1,0 +1,12 @@
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE/Editor files (e.g., VS Code)
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
