@@ -1,0 +1,31 @@
+Spring Boot application: A web based application to manage information for a   [Students and Courses] system. 
+Current implementation: The Web Portal offers two dashboards – Student and Admin
+
+From the Student portal,  a Student can do the following:
+- Register himself/herself into the Students database, i.e. no authentication at present.
+- View available courses and
+- Enrol in multiple courses – maximum four courses per semester
+
+From the Admin portal, An Admin can do the following:
+-  Add new courses and confirmation page display to indicate successful operation
+- Delete multiple courses and/or Update existing course details
+- Display enrolled Students and their course details
+- View a list of all Students and details provided at the time of Student registration
+
+Main features of implementation:
+Entities: Students and Courses are the main Entities
+Mapping Entity: Students-Courses is the Mapping Entity with Many-to-Many annotation. This entity is used to keep track of Students enrollment into Courses and the period of enrollment.
+
+- Repository Interfaces that provide methods to perform the typical CRUD operations - creating, reading, and updating data for these entities. 
+
+Spring MVC implemetation
+ View: Data of Entities displayed in JSP pages (Thymeleaf and JSP)
+
+Controller: Acts on the incoming HTTP requests, Based on User input, calls the appropriate Service and Selects which View to display.
+
+Service: this is the Business Logic Layer. Enforces the rules around the Students and related Courses – how many courses to take, Maximum allowed per term etc.
+
+Repository (Data Access Layer): Tool used – Spring Data JPA to perform CRUD operations
+
+Challenges Faced & How I worked around them:
+I had to refactor Code multiple times because initially I chose fields with simple naming system, for example, just Name. Later for efficient Database Serach and Retrieval operations, I modified the Name field in to LastName and FirstName for better organization and search criteria.
